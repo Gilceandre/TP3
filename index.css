@@ -1,0 +1,186 @@
+@font-face{
+    font-family: 'permanentmaker';
+    src: url("./Fonts/PermanentMarker-Regular.ttf");
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url("./Imagen/Fondo.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.Imageninicio {
+    width: 100px;
+    height: 90px;
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90px;
+}
+
+.list-nav {
+    list-style: none;
+}
+
+.item-nav {
+    display: inline-block;
+    margin: 0px 20px;
+    font-family: 'permanentmaker';
+    font-size: 40px;   
+}
+
+.item-nav a {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    cursor: inherit;
+}
+.item-nav a:hover {
+    color: rgb(253, 187, 63);
+    cursor: pointer;
+}
+.fondo{
+ background-color:rgb(248, 228, 140) ;
+ width: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:500px;
+}
+
+.titulo {
+    align-items: center;
+    font-family: 'permanentmaker'; 
+    color:  rgb(3, 3, 3);
+    font-size: 25px;   
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px rgb(148, 0, 111), 2px 2px rgb(255, 6, 180), 3px 3px #666, 4px 4px #86D6D3;
+}
+
+.imagencentral{
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+.Contenedorcards{
+    display:flex;
+    flex-direction: column;
+}
+.Contenedorcards2{
+    display:flex;
+}
+.Contenedorapps {
+    display:flex;
+    font-family: 'permanentmaker'; 
+    color: rgb(3, 3, 3);
+    margin-bottom:30px ;
+}
+
+.Contenedormobileapp {
+    flex-direction: column;
+    display:flex ;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Webapp {
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Productdesing1{ 
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.style {
+    margin: 0px;
+    width: 120px;
+    height: 180px;
+    display: inline-block;
+}
+
+.mobileapp{ 
+    margin: 10px;
+    font-size: 25px; 
+    justify-content: center;
+    margin-right:40px ;
+    margin-left: 60px;
+}
+
+.webapp {
+    margin: 10px;
+    font-size: 25px; 
+    justify-content: center;
+    margin-right:40px;
+}
+
+.productdesing {
+    margin: 10px;
+    font-size: 25px; 
+    justify-content: center;
+}
+
+.Empresas {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px ;
+}
+
+.empresas1{
+   
+    margin: 2px;
+    width: 265px;
+    height: 180px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.contenedorfooter {
+    display: flex;
+    align-items: center;
+}
+.contenedorformulario{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.Contactos {    
+    font-family:'permanentmaker';
+    color: rgb(3, 3, 3);
+    justify-content: center;
+    display: inline-block;
+    font-size: 30px;  
+    margin: 0;
+}
+
+.Email { 
+    margin-bottom: 80px;  
+    text-align: center;
+    font-family:'permanentmaker';
+    color:  rgb(3, 3, 3);
+    justify-content: center;
+    display: block;
+}
+
+.Logofinal {
+    width: 200px;
+    height: 90px;
+    display: inline-block;
+    margin: 50px;
+}
